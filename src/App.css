@@ -3,12 +3,12 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-
 }
 .item {
-  width: 15%;
+  width: 20%;
   margin-left: 10px;
-  border-radius: 5px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 30px;
  background-color: white;
   box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
 }
@@ -18,32 +18,44 @@
 }
 .icon img{
   width: 100%;
-  border-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 .card-item {
   display: flex;
   justify-content: space-between;
   width: 95%;
+  height: 70px;
 }
 h6 {
   font-size: 20px;
 }
+.texts {
+  font-size: 15px;
+}
 .ratings {
   display: flex;
   justify-content: space-between;
+  margin-top: 5px;
 }
 .stars {
   width: 40%;
   color: rgb(255, 153, 0);
-  font-size: 30px;
+  font-size: 25px;
+  background-color: white;
+}
+.last {
+  background-color: white;
 }
 .signage {
   background-color: rgb(255, 153, 0);
-  width: 40%;
+  width: 30%;
+  height: 70px;
+  border: white;
   text-align: center;
-  font-size: 50px;
+  font-size: 45px;
   color: white;
-  border-top-left-radius: 8px;
+  border-top-left-radius: 15px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -56,8 +68,5 @@ h6 {
   }
   h6 {
     font-size: 15px;
-  }
-  .testing {
-    /* color: cyan; */
   }
 }

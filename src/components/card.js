@@ -13,19 +13,19 @@ function Card() {
     <h6>Rose Muffens</h6>
     <h6>12$</h6>
 </div>
-{/* <div className="texts"> */}
-<p>Served with french toast + cakes</p>
-<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, soluta.</p>
-{/* </div> */}
+<div className="texts">
+<p>Served with french fries + drink</p>
+<p>Choice of: coke, fanta, sprite, Upgrade to large fries, And whooper patty, Add tender crisp patty and more.</p>
+</div>
 </div>
 
 <div className="ratings">
 
 <div className="stars">
-<span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>☆</span>
+<span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span className="last">☆</span>
 </div>
 <div className="signage">
-&#10014;
+&#43;
 </div>
 </div>
 
