@@ -1,0 +1,48 @@
+.card {
+  /* background-color: rgb(13, 100, 175); */
+  width: 100%;
+
+}
+.item {
+  width: 15%;
+  margin-left: 10px;
+  border-radius: 5px;
+ background-color: white;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
+.icon {
+  width: 100%;
+  display: grid;
+}
+.icon img{
+  width: 100%;
+  border-radius: 20px;
+}
+.card-item {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+}
+h6 {
+  font-size: 20px;
+}
+.ratings {
+  display: flex;
+  justify-content: space-between;
+}
+.stars {
+  width: 40%;
+  color: rgb(255, 153, 0);
+  font-size: 30px;
+}
+.signage {
+  background-color: rgb(255, 153, 0);
+  width: 40%;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  border-top-left-radius: 8px;
+}
+
+
+
