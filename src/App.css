@@ -1,6 +1,8 @@
 .card {
   /* background-color: rgb(13, 100, 175); */
   width: 100%;
+  display: flex;
+  justify-content: space-between;
 
 }
 .item {
@@ -44,5 +46,18 @@ h6 {
   border-top-left-radius: 8px;
 }
 
-
-
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .item {
+    width: 50%;
+  }
+  h6 {
+    font-size: 15px;
+  }
+  .testing {
+    /* color: cyan; */
+  }
+}
