@@ -1,20 +1,5 @@
 import React, { useState, useEffect } from 'react';
-// import Icon from '../images/salad d.jpg';
-
-var striptags = require('striptags');
-
-var html =
-    '<div>'
-    function texts() {
-      return (
-        'lorem ipsum <strong>dolor</strong> <em>sit</em> amet' +
-        '</div>'
-      );
-    }
-      
-
-striptags(html);
-
+    
 function Card() {
 
     const [error, setError] = useState(null);
