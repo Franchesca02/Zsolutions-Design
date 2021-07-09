@@ -15,8 +15,6 @@ await fetch("https://asm-dev-api.herokuapp.com/api/v1/food")
             (result) => {
  setIsLoaded(true);
            setItems(result.data);
-          //  console.log(result)
-            // console.log(items, "yyyyyy")
             },
 
             (error) => {
@@ -46,11 +44,11 @@ await fetch("https://asm-dev-api.herokuapp.com/api/v1/food")
                     <img src={item.strMealThumb} alt="card icon" />
                     <div className="card-item">
                         <h6>{item.title}</h6>
-                        <h6>{item.Price}</h6>
+                        <h6>{item.price}</h6>
                     </div>
                     <div className="texts">
                         <p>Served with french fries + drink</p>
-                        <p>Choice of: coke, fanta, sprite, Upgrafe to large fries And whopper patty, Add Tender crisp patty and more...</p>
+                        <p>Choice of: coke, fanta, sprite, Upgrade to large fries And whopper patty, Add Tender crisp patty and more...</p>
                     </div>
                 </div>
 
