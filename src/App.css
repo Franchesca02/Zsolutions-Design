@@ -16,7 +16,7 @@
   width: 90%;
   /* margin-left: 10px; */
   margin-bottom: 50px;
-  border-top-right-radius: 20px;
+  border-top-right-radius: 18px;
   border-bottom-left-radius: 30px;
  background-color: white;
   box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
@@ -27,8 +27,8 @@
 }
 .icon img{
   width: 100%;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-top-right-radius: 18px;
+  border-bottom-left-radius: 18px;
 }
 .card-item {
   display: flex;
@@ -61,7 +61,7 @@ h6 {
 .signage {
   background-color: rgb(255, 153, 0);
   width: 30%;
-  height: 70px;
+  height: 80px;
   border: white;
   text-align: center;
   font-size: 45px;
@@ -89,7 +89,8 @@ button{
     flex-wrap: wrap;
   }
   .item {
-    width: 50%;
+    width: 90%;
+    margin-bottom: 50px;
   }
   h6 {
     font-size: 15px;
@@ -103,7 +104,17 @@ button{
   .signage {
     background-color: rgb(255, 153, 0);
     width: 35%;
-    height: 60px;
+    height: 70px;
     font-size: 35px;
+    text-align: center;
+  }
+  .btn {
+    width: 100%;
+    text-align: center;
+    /* background-color: rgb(119, 78, 78); */
+  }
+  button {
+    width: 30%;
+    height: 47px;
   }
 }

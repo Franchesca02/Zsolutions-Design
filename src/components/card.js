@@ -1,7 +1,19 @@
 import React, { useState, useEffect } from 'react';
 // import Icon from '../images/salad d.jpg';
 
+var striptags = require('striptags');
 
+var html =
+    '<div>'
+    function texts() {
+      return (
+        'lorem ipsum <strong>dolor</strong> <em>sit</em> amet' +
+        '</div>'
+      );
+    }
+      
+
+striptags(html);
 
 function Card() {
 
@@ -18,8 +30,8 @@ await fetch("https://asm-dev-api.herokuapp.com/api/v1/food")
             (result) => {
  setIsLoaded(true);
            setItems(result.data);
-           console.log(result)
-            console.log(items, "yyyyyy")
+          //  console.log(result)
+            // console.log(items, "yyyyyy")
             },
 
             (error) => {
@@ -37,9 +49,7 @@ await fetch("https://asm-dev-api.herokuapp.com/api/v1/food")
         } else if (!isLoaded) {
           return <div>Loading...</div>;
         } else {
-  
 
-        // fetch("https://asm-dev-api.herokuapp.com/api/v1/food")
     return (
       <div className="card-holder">
         
@@ -55,7 +65,7 @@ await fetch("https://asm-dev-api.herokuapp.com/api/v1/food")
                     </div>
                     <div className="texts">
                         <p>Served with french fries + drink</p>
-                        <p>{item.description}</p>
+                        <p>Choice of: coke, fanta, sprite, Upgrafe to large fries And whopper patty, Add Tender crisp patty and more...</p>
                     </div>
                 </div>
 
